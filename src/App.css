@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.a.active{
+  color: #99999999 !important;
+}
+@media (max-width:350px) {
+  .draw{
+    width: 100%;
+  }
+  .xicon{
+    display: flex !important;
+  }
+  .card{
+    width: 350px !important;
+  }
+}
+.shadow{
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5) !important;
+  background: #000 !important;
+}
+.con {
+  position: relative;
+  display: inline-block; /* Ensures the container fits the image */
+}
+
+.con::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px; /* Adjust as needed */
+  height: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media (max-width:640px) {
+  .input{
+    width: 450px !important;
+  }
+}
+@media (max-width:580px) {
+  .input{
+    width: 400px !important;
+  }
+}
+@media (max-width:450px) {
+  .input{
+    width: 350px !important;
+  }
+}
+@media (max-width:400px) {
+  .input{
+    width: 320px !important;
+  }
+}
+@media (max-width:352px) {
+  .input{
+    width: 250px !important;
+  }
+}

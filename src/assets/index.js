@@ -1,0 +1,17 @@
+import logo from './logo.png'
+import img1 from './Group 3.png'
+import img2 from './img.png'
+import py from './py.png'
+import mine from './mine.png'
+import node from './node.png'
+import plan1 from './plan.png'
+import plan2 from './Frame 12.png'
+import plan3 from './Frame 13.png'
+import plan4 from './Frame 14.png'
+import plan5 from './Frame 14 (1).png'
+import vector from './Vector.svg'
+import logo1 from './logo 1.png'
+import logo2 from './logo 1 (1).png'
+import logo3 from './logo 1 (2).png'
+
+export {logo,img1,img2,mine,py,node,plan1,plan2,plan3,plan4,plan5,vector,logo1,logo2,logo3}
